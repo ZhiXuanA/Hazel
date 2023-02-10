@@ -1,5 +1,6 @@
 #include "Application.h"
 #include <stdio.h>
+#include "Log.h"
 namespace Hazel {
 	Application::Application() {
 
@@ -10,6 +11,6 @@ namespace Hazel {
 	}
 
 	void Application::Run() {
-		printf("xuanTest hello");
+		HZ_CLIENT_T("xuanTest hello");
 	}
 }
