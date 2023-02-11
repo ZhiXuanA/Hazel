@@ -7,8 +7,8 @@ int main()
 {
 	Hazel::Log::Init();
 	auto sb = Hazel::CreateApplication();
-	HZ_CORE_W("123123");
-	HZ_CLIENT_E("456456");
+	HZ_CORE_W("123123AAAHAHAHHA111111111111111111111111");
+	HZ_CLIENT_E("456456BBB");
 	sb->Run();
 	delete sb;
 }
