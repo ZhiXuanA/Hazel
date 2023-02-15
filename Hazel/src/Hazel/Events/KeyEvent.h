@@ -1,7 +1,7 @@
 #pragma once
+#include "hzpch.h"
 #include "Hazel/Core/KeyCodes.h"
 #include "Hazel/Events/Event.h"
-#include <sstream>
 namespace Hazel
 {
 	class KeyEvent : public Event
