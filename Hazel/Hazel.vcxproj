@@ -59,7 +59,7 @@
     <IntDir>..\bin-int\Debug-windows-x86_64\Hazel\</IntDir>
     <TargetName>Hazel</TargetName>
     <TargetExt>.dll</TargetExt>
-    <PublicIncludeDirectories>D:\HazelDev\Hazel\Hazel\vendor\spdlog\include</PublicIncludeDirectories>
+    <PublicIncludeDirectories>D:\Desktop\XHazel\Hazel\Hazel\vendor\spdlog\include</PublicIncludeDirectories>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -67,7 +67,6 @@
     <IntDir>..\bin-int\Release-windows-x86_64\Hazel\</IntDir>
     <TargetName>Hazel</TargetName>
     <TargetExt>.dll</TargetExt>
-    <PublicIncludeDirectories>D:\HazelDev\Hazel\Hazel\vendor\spdlog\include</PublicIncludeDirectories>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -75,7 +74,6 @@
     <IntDir>..\bin-int\Dist-windows-x86_64\Hazel\</IntDir>
     <TargetName>Hazel</TargetName>
     <TargetExt>.dll</TargetExt>
-    <PublicIncludeDirectories>D:\HazelDev\Hazel\Hazel\vendor\spdlog\include</PublicIncludeDirectories>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -88,6 +86,7 @@
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <ForcedIncludeFiles>hzpch.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

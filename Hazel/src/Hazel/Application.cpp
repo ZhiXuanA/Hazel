@@ -16,7 +16,7 @@ namespace Hazel {
 
 	void Application::Run() {
 		HZ_CLIENT_T("xuanTest hello");
-		HZ_CORE_I("信息打印");
+		HZ_CORE_I("信息打印123213");
 		auto wrEvent = WindowResizeEvent(100, 200);
 		HZ_CORE_I(wrEvent.ToString());
 		auto kEvent = KeyPressedEvent(1);
